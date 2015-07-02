@@ -4,6 +4,12 @@ class Solution {
      * param target :  an integer to be inserted
      * return : an integer
      */
+
+    /**
+     * 测试用例：
+     * 数字在数列中
+     * 数字不在数列中: 1、在对头插入 2、在队尾插入 3、在中间插入
+     * /
 public:
     int searchInsert(vector<int> &A, int target) {
         // write your code here
